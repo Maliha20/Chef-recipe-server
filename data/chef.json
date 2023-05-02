@@ -1,47 +1,190 @@
-{
-    "chefs": [
-       {
-          "name": "Jung Sik Yim",
-          "years_of_experience": 20,
-          "num_recipes": 95,
-          "likes": 4.5,
-          "picture_url": "https://example.com/jung-sik-yim.jpg"
-       },
-       {
-          "name": "Edward Kwon",
-          "years_of_experience": 25,
-          "num_recipes": 128,
-          "likes": 4.3,
-          "picture_url": "https://example.com/edward-kwon.jpg"
-       },
-       {
-          "name": "Jin-ho Choi",
-          "years_of_experience": 15,
-          "num_recipes": 76,
-          "likes": 4.2,
-          "picture_url": "https://example.com/jin-ho-choi.jpg"
-       },
-       {
-          "name": "Jung Ho-young",
-          "years_of_experience": 12,
-          "num_recipes": 64,
-          "likes": 4.1,
-          "picture_url": "https://example.com/jung-ho-young.jpg"
-       },
-       {
-          "name": "Kang Min-goo",
-          "years_of_experience": 8,
-          "num_recipes": 42,
-          "likes": 4.0,
-          "picture_url": "https://example.com/kang-min-goo.jpg"
-       },
-       {
-          "name": "Yim Jung-sik",
-          "years_of_experience": 10,
-          "num_recipes": 58,
-          "likes": 4.4,
-          "picture_url": "https://example.com/yim-jung-sik.jpg"
-       }
-    ]
- }
- 
+[
+    {
+      "id": 1,
+      "name": "Baek Jong Won",
+      "years_of_experience": 20,
+      "num_recipes": 95,
+      "likes": 4.5,
+      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%EB%B0%B1%EC%A2%85%EC%9B%90_%ED%95%9C%EB%8F%88_%EC%B6%94%EC%B6%9C.png",
+      "recipes":[
+       { 
+        "r_name": "Spicy Braised Chicken",
+        "r_description":"This is a spicy and savory chicken dish that is perfect for a family meal.It's a popular dish in Korea and is loved for its bold flavors. ",
+        "cooking_method": "The chicken is braised in a spicy sauce made with gochujang (Korean red chili paste), soy sauce, garlic, and other seasonings.",
+        "r_rating":"4.5",
+        "ingredients":"Chicken, Gochujang, Soy sauce, garlic, Sugar"
+    },
+    {
+        "r_name": "Kimchi Fried Rice",
+        "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
+        "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
+        "r_rating":"5",
+        "ingredients":"Meat, Gochujang, Soy sauce, garlic, Spring Onion, Sugar"
+    },
+    {
+        "r_name": "Korean Potato Salad",
+        "r_description":"This is a classic Korean side dish. It's a great side dish for any Korean meal and is especially popular at picnics and potlucks.",
+        "cooking_method": "The potatoes are mashed and mixed with the other ingredients to create a creamy and flavorful salad. ",
+        "r_rating":"5",
+        "ingredients":"Boiled potatoes, Mayonnaise, Carrots, Onion, Apple"
+    }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Edward Kwon",
+      "years_of_experience": 25,
+      "num_recipes": 128,
+      "likes": 4.3,
+      "picture_url": "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/pcgangwon0006hr_1.webp?w=1600&h=1067&q=100",
+      "recipes":[
+        { 
+         "r_name": "Dakgalbi",
+         "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
+         "cooking_method": "The chicken is marinated in a spicy sauce then stir fried until brown. Served with white rice",
+         "r_rating":"3.5",
+         "ingredients":"Chicken thighs, Gochujang, Soy sauce, Cabbage, Sweet potatoes"
+     },
+     {
+         "r_name": "Kimchi Pancakes",
+         "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
+         "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
+         "r_rating":"5",
+         "ingredients":"Meat, Gochujang, Soy sauce, garlic, Spring Onion, Sugar"
+     },
+     {
+         "r_name": "Soy Garlic Chicken",
+         "r_description":"This is a classic Korean main dish. It's a great dish for any Korean meal and enjoyed with soju.",
+         "cooking_method": "Marinated chicken are braised in soy sauce, garlic, gochujang and eaten with rice.",
+         "r_rating":"4",
+         "ingredients":"Chicken, Sou sauce, Carrots, Onion, Garlic"
+     }
+       ]
+    },
+    {
+      "id": 3,
+      "name": "Jin-ho Choi",
+      "years_of_experience": 15,
+      "num_recipes": 76,
+      "likes": 4.2,
+      "picture_url": "https://glamadelaide.com.au/wp-content/uploads/2018/06/Chef-Jin.jpg",
+      "recipes":[
+        { 
+         "r_name": "Spicy Korean Fried Chicken",
+         "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
+         "cooking_method": "The chicken is marinated in a spicy sauce then stir fried until brown. Served with white rice",
+         "r_rating":"3.5",
+         "ingredients":"Chicken, Paprika, Soy sauce, Black pepper,  Rice vinegar,Ginger"
+     },
+     {
+         "r_name": "Soy Braised Short Ribs",
+         "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
+         "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
+         "r_rating":"5",
+         "ingredients":"Beef short ribs, Mirin, Soy sauce, Onion, Spring Onion, Brown sugar"
+     },
+     {
+         "r_name": "Shrimp and Scallop Wontons",
+         "r_description":"Shrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
+         "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
+         "r_rating":"4",
+         "ingredients":"shiitake mushrooms, Soy sauce, Carrots, Onion, Garlic, Scallops"
+     }
+       ]
+    },
+    {
+      "id": 4,
+      "name": "Jung Ho-young",
+      "years_of_experience": 12,
+      "num_recipes": 64,
+      "likes": 4.1,
+      "picture_url": "https://i.mydramalist.com/qxYg5_5c.jpg",
+      "recipes":[
+        { 
+         "r_name": "Galbitang",
+         "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
+         "cooking_method": "The beef is marinated in a spicy sauce then stir fried until brown. Served with white rice",
+         "r_rating":"3.5",
+         "ingredients":"Beef short ribs, Paprika, Soy sauce, Black pepper,  Rice vinegar,Ginger"
+     },
+     {
+         "r_name": "Bibimbap",
+         "r_description":"The name bibimbap means mixed rice in Korean, as the dish is traditionally mixed together before eating.",
+         "cooking_method": "The dish is typically served with a variety of vegetables, including julienned carrots, zucchini, and cucumbers, soybean sprouts, and spinach, which are blanched and seasoned with sesame oil and salt. Thinly sliced beef, pork, or chicken may also be added as a protein",
+         "r_rating":"5",
+         "ingredients":"Cooked white rice, Beef,Carrot, Onion, Spring Onion,Sesame oil"
+     },
+     {
+         "r_name": "Japchae",
+         "r_description":"TShrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
+         "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
+         "r_rating":"4",
+         "ingredients":"Shrimp, Soy sauce, Carrots, Onion, Garlic, Scallops, Saalt and pepper "
+     }
+       ]
+    },
+    
+    {
+      "id": 5,
+      "name": "Kang Min-goo",
+      "years_of_experience": 8,
+      "num_recipes": 42,
+      "likes": 4.0,
+      "picture_url": "https://res.cloudinary.com/hio22hxcn/image/upload/fl_lossy,f_auto,q_auto,w_auto/v1595398020/Chef_Mingoo_Kang_2_hpsefp.jpg",
+      "recipes":[
+        { 
+         "r_name": "Haemul Pajeon",
+         "r_description":"Haemul Pajeon is a savory Korean pancake. It is a popular Korean street food and is also served as an appetizer or side dish in Korean cuisine.",
+         "cooking_method": "The batter for the pancake is typically made by whisking together all-purpose flour, rice flour, salt, pepper, egg, and water or broth until smooth.The pancake is then cooked in a hot, oiled pan until golden brown and crispy on the outside.",
+         "r_rating":"3.5",
+         "ingredients":"All-purpose flour, Paprika, Soy sauce, Black pepper,Vinegar,Ginger"
+     },
+     {
+         "r_name": "Tteokbokki",
+         "r_description":"Tteokbokki is a popular Korean street food dish that consists of chewy cylindrical rice cakes called tteok, cooked in a spicy, sweet, and savory sauce",
+         "cooking_method": "To make tteokbokki, the rice cakes are first soaked in water to soften them, and then boiled until they are chewy and tender. ",
+         "r_rating":"5",
+         "ingredients":" Gochujang, Soy sauce, Garlic, Fishcakes, Onion, Carrot"
+     },
+     {
+         "r_name": "Kimchi Jjigae",
+         "r_description":"TShrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
+         "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
+         "r_rating":"4",
+         "ingredients":"Fermented kimchi, Soy sauce, Anchovy, Onion, Garlic, Scallops "
+     }
+       ]
+    },
+    {
+      "id": 6,
+      "name": "Yim Jung-sik",
+      "years_of_experience": 10,
+      "num_recipes": 58,
+      "likes": 4.4,
+      "picture_url": "https://www.weekendnotes.com/im/003/05/chef-yim.jpg",
+      "recipes":[
+        { 
+         "r_name": "Bossam",
+         "r_description":"Bossam is a traditional Korean dish served at special occasions and celebrations, such as weddings or holidays.",
+         "cooking_method": "Pork belly is boiled with various seasonings, such as garlic, ginger, and scallions, until tender and fully cooked.",
+         "r_rating":"3.5",
+         "ingredients":"Vegetables, Kimchi, and Ssamjang, Chilli paste, Brown Sugar"
+     },
+     {
+         "r_name": "Jjajangmyeon",
+         "r_description":"Jjajangmyeon is a dish originated in China but has become a beloved staple of Korean cuisine, especially in the city of Incheon where many Chinese immigrants settled.",
+         "cooking_method": "The dish is typically made with chewy Korean wheat noodles (jjajangmyeon noodles) that are stir-fried with diced pork belly, onions, and garlic in a wok ",
+         "r_rating":"5",
+         "ingredients":"Korean wheat noodles,Pork belly Onion,Chunjang (black bean)"
+     },
+     {
+         "r_name": "Bulgogi",
+         "r_description":"The name bulgogi means fire meat, reflecting the traditional method of cooking over an open flame.",
+         "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
+         "r_rating":"4",
+         "ingredients":"Beef sirloin,Soy sauce,Sugar,Sesame oil, Garlic"
+     }
+       ]
+    }
+  ]
+
