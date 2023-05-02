@@ -2,6 +2,7 @@
     {
       "id": "1",
       "name": "Baek Jong Won",
+      "bio":"Baek Jong-won is a South Korean chef, restaurateur, and entrepreneur. He was born on March 4, 1966, in Jinju, South Korea. He began his culinary career as a chef in a Korean Navy kitchen, and later worked in various restaurants before opening his first restaurant in 1996.",
       "years_of_experience": 20,
       "num_recipes": 95,
       "likes": 4.5,
@@ -9,6 +10,7 @@
       "recipes":[
        { 
         "r_name": "Spicy Braised Chicken",
+        "pic": "https://stellanspice.com/wp-content/uploads/2021/11/IMG_9992-scaled-e1638381183552-789x1024.jpeg",
         "r_description":"This is a spicy and savory chicken dish that is perfect for a family meal.It's a popular dish in Korea and is loved for its bold flavors. ",
         "cooking_method": "The chicken is braised in a spicy sauce made with gochujang (Korean red chili paste), soy sauce, garlic, and other seasonings.",
         "r_rating":"4.5",
@@ -16,6 +18,7 @@
     },
     {
         "r_name": "Kimchi Fried Rice",
+        "pic": "https://www.recipetineats.com/wp-content/uploads/2021/03/Kimchi-Fried-Rice-Skillet.jpg?resize=650,813",
         "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
         "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
         "r_rating":"5",
@@ -23,6 +26,7 @@
     },
     {
         "r_name": "Korean Potato Salad",
+        "pic": "https://futuredish.com/wp-content/uploads/2017/12/Korean-Potato-Salad.jpg",
         "r_description":"This is a classic Korean side dish. It's a great side dish for any Korean meal and is especially popular at picnics and potlucks.",
         "cooking_method": "The potatoes are mashed and mixed with the other ingredients to create a creamy and flavorful salad. ",
         "r_rating":"5",
@@ -33,6 +37,7 @@
     {
       "id": "2",
       "name": "Edward Kwon",
+      "bio":"Edward Kwon is a South Korean chef, restaurateur, and television personality. He was born on July 17, 1971, in Seoul, South Korea. After studying hotel management and culinary arts in the United States and Switzerland, he worked in several Michelin-starred restaurants in Europe.",
       "years_of_experience": 25,
       "num_recipes": 128,
       "likes": 4.3,
@@ -40,6 +45,7 @@
       "recipes":[
         { 
          "r_name": "Dakgalbi",
+         "pic":"https://futuredish.com/wp-content/uploads/2018/05/Dakgalbi-At-Home.jpg",
          "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
          "cooking_method": "The chicken is marinated in a spicy sauce then stir fried until brown. Served with white rice",
          "r_rating":"3.5",
@@ -47,6 +53,7 @@
      },
      {
          "r_name": "Kimchi Pancakes",
+         "pic":"https://thewoksoflife.com/wp-content/uploads/2016/12/kimchi-pancake-5.jpg",
          "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
          "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
          "r_rating":"5",
@@ -54,6 +61,7 @@
      },
      {
          "r_name": "Soy Garlic Chicken",
+         "pic":"https://takestwoeggs.com/wp-content/uploads/2022/10/Soy-Garlic-Wings-Takestwoeggs-final-photography-1.jpg",
          "r_description":"This is a classic Korean main dish. It's a great dish for any Korean meal and enjoyed with soju.",
          "cooking_method": "Marinated chicken are braised in soy sauce, garlic, gochujang and eaten with rice.",
          "r_rating":"4",
@@ -63,7 +71,8 @@
     },
     {
       "id": "3",
-      "name": "Jin-ho Choi",
+      "name": "Jin ho Choi",
+      "bio":"Jin ho Choi is a South Korean chef and restaurateur. He was born on May 15, 1976, in Seoul, South Korea. He began his culinary career in the United States, working in several restaurants before opening his own restaurant, New York's Korean Temple Cuisine Geumgangsan, in 2013.",
       "years_of_experience": 15,
       "num_recipes": 76,
       "likes": 4.2,
@@ -71,6 +80,7 @@
       "recipes":[
         { 
          "r_name": "Spicy Korean Fried Chicken",
+         "pic":"https://twoplaidaprons.com/wp-content/uploads/2023/02/grabbing-the-Korean-fried-chicken-wing.jpg",
          "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
          "cooking_method": "The chicken is marinated in a spicy sauce then stir fried until brown. Served with white rice",
          "r_rating":"3.5",
@@ -78,6 +88,7 @@
      },
      {
          "r_name": "Soy Braised Short Ribs",
+         "pic":"https://img.taste.com.au/Q_7jN93j/w643-h428-cfill-q90/taste/2016/11/korean-soy-braised-beef-short-ribs-103179-1.jpeg",
          "r_description":"This is a popular Korean dish. It's a great way to use up leftover rice and kimchi, and it's a tasty and filling dish that can be enjoyed any time of day.",
          "cooking_method": "The meat is sauted in a spicy sauce, then fried in high flame with leftover rice.",
          "r_rating":"5",
@@ -85,6 +96,7 @@
      },
      {
          "r_name": "Shrimp and Scallop Wontons",
+         "pic":"https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/03/04/0/FN_021620-FNKLive-Ronnie-Woo-Pork-and-Shrimp-Wontons-w-Peanut-Sauce-0011_s4x3.jpg.rend.hgtvcom.826.620.suffix/1583353418678.jpeg",
          "r_description":"Shrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
          "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
          "r_rating":"4",
@@ -94,7 +106,8 @@
     },
     {
       "id": "4",
-      "name": "Jung Ho-young",
+      "name": "Jung Ho young",
+      "bio":"Jung Ho-young is a South Korean chef and restaurateur. He was born in Seoul, South Korea, and began his culinary career in his family's restaurant. He later studied at Le Cordon Bleu in Paris, France, and worked in several Michelin-starred restaurants in Europe.",
       "years_of_experience": 12,
       "num_recipes": 64,
       "likes": 4.1,
@@ -102,6 +115,7 @@
       "recipes":[
         { 
          "r_name": "Galbitang",
+         "pic":"https://www.beyondkimchee.com/wp-content/uploads/2023/01/galbitang-17.jpg",
          "r_description":"This is a popular Korean dish made with marinated chicken, vegetables, and a spicy sauce.",
          "cooking_method": "The beef is marinated in a spicy sauce then stir fried until brown. Served with white rice",
          "r_rating":"3.5",
@@ -109,13 +123,15 @@
      },
      {
          "r_name": "Bibimbap",
+         "pic":"https://www.thespruceeats.com/thmb/nkQh8S9sI3WZTVep29oWt2NyxsA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-korean-bibimbap-recipe-2118765-hero-01-091c0e0f8c20426d8f70747955efa61d.jpg",
          "r_description":"The name bibimbap means mixed rice in Korean, as the dish is traditionally mixed together before eating.",
-         "cooking_method": "The dish is typically served with a variety of vegetables, including julienned carrots, zucchini, and cucumbers, soybean sprouts, and spinach, which are blanched and seasoned with sesame oil and salt. Thinly sliced beef, pork, or chicken may also be added as a protein",
+         "cooking_method": "The dish is typically served with a variety of vegetables, including julienned carrots, zucchini, and cucumbers, soybean sprouts, and spinach, which are blanched and seasoned with sesame oil and salt.",
          "r_rating":"5",
          "ingredients":"Cooked white rice, Beef,Carrot, Onion, Spring Onion,Sesame oil"
      },
      {
          "r_name": "Japchae",
+         "pic":"https://www.justonecookbook.com/wp-content/uploads/2022/08/Japchae-1587-II.jpg",
          "r_description":"TShrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
          "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
          "r_rating":"4",
@@ -126,7 +142,8 @@
     
     {
       "id": "5",
-      "name": "Kang Min-goo",
+      "name": "Kang Min goo",
+      "bio":"Kang Min goo is a South Korean chef and restaurateur. He was born in 1978 in South Korea, and began his culinary career in the early 2000s, working in various restaurants in South Korea and France.",
       "years_of_experience": 8,
       "num_recipes": 42,
       "likes": 4.0,
@@ -134,6 +151,7 @@
       "recipes":[
         { 
          "r_name": "Haemul Pajeon",
+         "pic":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/12/21/0/FNK_Haemul-Pajeon-2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1482354070138.jpeg",
          "r_description":"Haemul Pajeon is a savory Korean pancake. It is a popular Korean street food and is also served as an appetizer or side dish in Korean cuisine.",
          "cooking_method": "The batter for the pancake is typically made by whisking together all-purpose flour, rice flour, salt, pepper, egg, and water or broth until smooth.The pancake is then cooked in a hot, oiled pan until golden brown and crispy on the outside.",
          "r_rating":"3.5",
@@ -141,6 +159,7 @@
      },
      {
          "r_name": "Tteokbokki",
+         "pic":"https://twoplaidaprons.com/wp-content/uploads/2022/12/close-top-down-of-tteokbokki.jpg",
          "r_description":"Tteokbokki is a popular Korean street food dish that consists of chewy cylindrical rice cakes called tteok, cooked in a spicy, sweet, and savory sauce",
          "cooking_method": "To make tteokbokki, the rice cakes are first soaked in water to soften them, and then boiled until they are chewy and tender. ",
          "r_rating":"5",
@@ -148,6 +167,7 @@
      },
      {
          "r_name": "Kimchi Jjigae",
+         "pic":"https://www.beyondkimchee.com/wp-content/uploads/2022/10/Spam-Kimchi-Jjigae-10.jpg",
          "r_description":"TShrimp and Scallop Wontons are a type of Chinese dumpling that is typically filled with a mixture of shrimp, scallops, garlic, ginger, soy sauce.",
          "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
          "r_rating":"4",
@@ -157,7 +177,8 @@
     },
     {
       "id": "6",
-      "name": "Yim Jung-sik",
+      "name": "Yim Jung sik",
+      "bio":"Yim Jung-sik is a South Korean chef and restaurateur. He was born in 1972 in South Korea, and began his culinary career working in several restaurants in Seoul.",
       "years_of_experience": 10,
       "num_recipes": 58,
       "likes": 4.4,
@@ -165,6 +186,7 @@
       "recipes":[
         { 
          "r_name": "Bossam",
+         "pic":"https://koreancuisinerecipes.com/wp-content/uploads/2020/08/bossam-scaled.jpg",
          "r_description":"Bossam is a traditional Korean dish served at special occasions and celebrations, such as weddings or holidays.",
          "cooking_method": "Pork belly is boiled with various seasonings, such as garlic, ginger, and scallions, until tender and fully cooked.",
          "r_rating":"3.5",
@@ -172,6 +194,7 @@
      },
      {
          "r_name": "Jjajangmyeon",
+         "pic":"https://thefoodietakesflight.com/wp-content/uploads/2021/01/vegan-jjajangmyeon-black-bean-noodles-in-bowl-771x1024.jpg",
          "r_description":"Jjajangmyeon is a dish originated in China but has become a beloved staple of Korean cuisine, especially in the city of Incheon where many Chinese immigrants settled.",
          "cooking_method": "The dish is typically made with chewy Korean wheat noodles (jjajangmyeon noodles) that are stir-fried with diced pork belly, onions, and garlic in a wok ",
          "r_rating":"5",
@@ -179,6 +202,7 @@
      },
      {
          "r_name": "Bulgogi",
+         "pic":"https://assets.bonappetit.com/photos/57acd741f1c801a1038bc801/1:1/w_1920,c_limit/basic-bulgogi.jpg",
          "r_description":"The name bulgogi means fire meat, reflecting the traditional method of cooking over an open flame.",
          "cooking_method": "Once the wontons are assembled, they are typically boiled or steamed until cooked through.",
          "r_rating":"4",
