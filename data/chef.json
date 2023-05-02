@@ -1,0 +1,47 @@
+{
+    "chefs": [
+       {
+          "name": "Jung Sik Yim",
+          "years_of_experience": 20,
+          "num_recipes": 95,
+          "likes": 4.5,
+          "picture_url": "https://example.com/jung-sik-yim.jpg"
+       },
+       {
+          "name": "Edward Kwon",
+          "years_of_experience": 25,
+          "num_recipes": 128,
+          "likes": 4.3,
+          "picture_url": "https://example.com/edward-kwon.jpg"
+       },
+       {
+          "name": "Jin-ho Choi",
+          "years_of_experience": 15,
+          "num_recipes": 76,
+          "likes": 4.2,
+          "picture_url": "https://example.com/jin-ho-choi.jpg"
+       },
+       {
+          "name": "Jung Ho-young",
+          "years_of_experience": 12,
+          "num_recipes": 64,
+          "likes": 4.1,
+          "picture_url": "https://example.com/jung-ho-young.jpg"
+       },
+       {
+          "name": "Kang Min-goo",
+          "years_of_experience": 8,
+          "num_recipes": 42,
+          "likes": 4.0,
+          "picture_url": "https://example.com/kang-min-goo.jpg"
+       },
+       {
+          "name": "Yim Jung-sik",
+          "years_of_experience": 10,
+          "num_recipes": 58,
+          "likes": 4.4,
+          "picture_url": "https://example.com/yim-jung-sik.jpg"
+       }
+    ]
+ }
+ 
