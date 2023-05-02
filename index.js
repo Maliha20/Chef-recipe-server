@@ -13,6 +13,13 @@ app.get('/chef', (req,res)=>{
 
 })
 
+app.get('/chef/:id', (req,res)=>{
+    const id = req.params.id;
+    const selectedChef = chef.find(p=> p.id === id)
+    res.send(selectedChef)
+    console.log(id)
+})
+
 app.get('/', (req,res)=>{
     res.send("hello from chef's server")
 })
